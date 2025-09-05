@@ -16,8 +16,11 @@ public class Main {
 //scanner
 
         Scanner myScanner = new Scanner(System.in);
-        String resString = myScanner.next();
-        System.out.println(resString + "\n");
+        String resString = myScanner.nextLine();
+        System.out.println(resString);
+        resString = myScanner.next();
+        System.out.println(resString);
+
     }
 
 
